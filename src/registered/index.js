@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
 
 const Registere = () => {
+  const addClick = () => {
+      console.log('addClick')
+  }
   return (
     <>
-      <h1>注册</h1>
+      <h1>注册页面</h1>
     </>
   );
 };
