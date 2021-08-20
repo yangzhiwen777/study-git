@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Registere from "./registered";
 import Login from "./login";
+import Shop from "./shop";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Login></Login>
+      <Shop></Shop>
       <header className="App-header">
         <Registere></Registere>
         <p>
